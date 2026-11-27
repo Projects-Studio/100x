@@ -1,0 +1,48 @@
+package com.hundredx.app
+
+object Quotes {
+    private val lines = listOf(
+        "Ten focused minutes beat an hour of thinking about it.",
+        "You don't need motivation. You need the next small step.",
+        "Future you is watching. Make them proud.",
+        "Done is a feeling you can have in the next hour.",
+        "The task isn't getting smaller while you wait.",
+        "Start ugly. Fix it later.",
+        "Every reminder you ignore is a promise to yourself you're breaking.",
+        "Small wins stacked daily turn into 100x.",
+        "Close one loop. Then breathe.",
+        "Discipline is choosing what you want most over what you want now.",
+        "Open it. Just open it. The rest follows.",
+        "Momentum is built, not found.",
+        "You've done harder things than this.",
+        "Busy isn't the same as moving forward.",
+        "Two minutes of doing beats twenty of planning.",
+        "Your goals don't care how you feel today. Show up anyway.",
+        "Progress over perfection, every single time.",
+        "This won't finish itself. You will.",
+        "Be the person who does what they said they'd do.",
+        "The fastest way through is straight through.",
+        "Comfort is the enemy of 100x.",
+        "Phone down, task up.",
+        "A finished draft beats a perfect idea.",
+        "One task. Full attention. Go.",
+        "The deadline is real. So is your ability to hit it.",
+        "Remember why you added this in the first place.",
+        "Excuses are quiet. Results are loud.",
+        "The best time was earlier. The next best time is now.",
+        "You are one decision away from a productive hour.",
+        "Make today the day this gets crossed off.",
+        "Energy follows action. Move first.",
+        "Hard now, easy later. Easy now, hard later.",
+        "Win the next ten minutes.",
+        "Don't negotiate with the task. Do it.",
+        "Consistency turns ordinary people into outliers.",
+        "Your streak starts with this one.",
+        "If it matters, it gets done today.",
+        "Stop polishing the plan. Start the work.",
+        "Tiny steps still cover distance.",
+        "You set this deadline for a reason. Honor it.",
+    )
+
+    fun random(): String = lines.random()
+}
